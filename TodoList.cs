@@ -31,5 +31,4 @@ namespace TodoAppWPF
             return tasks;
         }
     }
-
 }
