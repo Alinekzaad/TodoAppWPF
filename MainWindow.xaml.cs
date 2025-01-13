@@ -52,6 +52,12 @@ namespace TodoAppWPF
             }
         }
 
+        /// <summary>
+        /// Tar bort valt todo-item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
         private void RemoveButton_Click(object sender, RoutedEventArgs e)
         {
             if (TasksListBox.SelectedIndex >= 0)
